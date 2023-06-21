@@ -1,0 +1,19 @@
+*, html, body {
+  background-color: #293133;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  background: #E5E4E2;
+  color: #293133;
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #E5E4E2;
+}

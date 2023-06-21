@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Telegram{% endblock %}
+
+{% block content %}
+    <h1>Chat</h1>
+    {% for row in chat %}
+    	<p>{{ row['date_time'] }}</p>
+        <p>{{ row['username_message'] }}</p>
+        <p>{{ row['status'] }}</p>
+        <hr>
+    {% endfor %}
+{% endblock %}
